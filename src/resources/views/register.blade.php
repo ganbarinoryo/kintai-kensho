@@ -20,7 +20,7 @@
         <h2>会員登録</h2>
     </div>
 
-    <form>
+    <form class="form">
 
         <div class="form__group">
             <div class="form__group-content">
@@ -69,6 +69,11 @@
         <div class="form__button">
             <button class="form__button-submit" type="submit">登録
             </button>
+        </div>
+
+        <div class="form__login-link">
+            <p>アカウントをお持ちの方はこちらから<br><a href="">ログイン</a>
+            </p>
         </div>
 
     </form>
