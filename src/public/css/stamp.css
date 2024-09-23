@@ -1,0 +1,26 @@
+.stamp__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.stamp-form__heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.stamp-form__heading h2 {
+    color: #8B7969;
+}
+
+.form {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+
+}
+
+.flex__form__group {
+    display: flex;
+    justify-content: space-between;
+}
