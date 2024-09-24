@@ -50,6 +50,7 @@ body {
     font-weight: bold;
     background: #ffffff;
     color: black;
+    cursor: pointer;
 }
 
 .stamp__content {
@@ -101,11 +102,11 @@ body {
 }
 
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background: #ffffff;
-    height: 40px;
+    height: 60px;
     text-align: center;
-}
-
-.footer__inner h5 {
-    padding-top: 10px;
 }

@@ -57,5 +57,10 @@
 
     </form>
 </div>
+<footer class="footer">
+    <div class="footer__inner">
+        <h5>Atte, inc.</h5>
+    </div>
+</footer>
 </body>
 </html>

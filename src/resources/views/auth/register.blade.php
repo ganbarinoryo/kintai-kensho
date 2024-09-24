@@ -73,18 +73,16 @@
         </div>
 
         <div class="form__login-link">
-            <p>アカウントをお持ちの方はこちらから<br><a href="">ログイン</a>
+            <p>アカウントをお持ちの方はこちらから<br><a href="/login">ログイン</a>
             </p>
         </div>
 
     </form>
 </div>
-
-
-
-
-
-
-
+ <footer class="footer">
+    <div class="footer__inner">
+        <h5>Atte, inc.</h5>
+    </div>
+</footer>
 </body>
 </html>
