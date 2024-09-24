@@ -13,12 +13,22 @@
             <a class="header__logo" href="/">Atte</a>
 
 <!--ヘッダー右側のリンク３つ-->
-            <div class="flex__header__rink">
+          <ul class="flex__header-nav">
+            @if (Auth::check())
+            <li class="header-nav__item">
                 <a href="">ホーム</a>
+            </li>
+            <li class="header-nav__item">
                 <a href="">日付一覧</a>
-                <a href="">ログアウト</a>
-            </div>
-        </div>
+            </li>
+            <li class="header-nav__item">
+                <form action="/logout" method="post">
+                    @csrf
+                    <button class="header-nav__button">ログアウト</button>
+                </form>
+            </li>
+            @endif
+          </ul>
 
 <main>
 
@@ -73,7 +83,12 @@
     </form>
 
 </main>
+</div>
 
+ <footer class="footer">
+    <div class="footer__inner">
+        <h5>Atte, inc.</h5>
+    </div>
 
 
 </body>
