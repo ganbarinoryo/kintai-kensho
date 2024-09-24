@@ -17,11 +17,6 @@
     font-size: 30px;
 }
 
-main {
-    background: #f3f4f9;
-    max-height: max-content;
-}
-
 .flex__header__rink {
     margin: 10px 30px 0 0;
     display: flex;
@@ -35,6 +30,11 @@ main {
     font-size: large;
     font-weight: bold;
     color: black;
+}
+
+main {
+    background: #f3f4f9;
+    max-height: max-content;
 }
 
 .stamp__content {

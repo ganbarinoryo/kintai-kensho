@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\StampController;
+use App\Http\Controllers\AttendanceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,4 +25,6 @@ Route::get('/', function () {
 
 //Route::get('/', [LoginController::class, 'login']);
 
-Route::get('/', [StampController::class, 'stamp']);
+//Route::get('/', [StampController::class, 'stamp']);
+
+Route::get('/', [AttendanceController::class, 'attendance']);
