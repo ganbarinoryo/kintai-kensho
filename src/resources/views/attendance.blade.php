@@ -40,16 +40,18 @@
                     <th>休憩時間</th>
                     <th>勤務時間</th>
                 </tr>
-
+@foreach ($users as $user)
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>{{$user->id}}</td>
+                    <td>{{$user->name}}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
+@endforeach
             </table>
+            {{ $users->links() }}
         </div>
     </div>
 </div>

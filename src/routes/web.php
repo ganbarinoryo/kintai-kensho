@@ -6,6 +6,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\StampController;
 use App\Http\Controllers\AttendanceController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,14 +21,16 @@ use App\Http\Controllers\AuthController;
 
 //Route::get('/', function () {return view('welcome');});
 
-Route::get('/', [RegisterController::class, 'register']);
+//Route::get('/', [RegisterController::class, 'register']);
 
 //Route::get('/', [LoginController::class, 'login']);
 
 //Route::get('/', [StampController::class, 'stamp']);
 
-//Route::get('/', [AttendanceController::class, 'attendance']);
+Route::get('/', [AttendanceController::class, 'attendance']);
 
-Route::middleware('auth')->group(function () {
-    Route::get('/', [AuthController::class, 'stamp']);
-});
+//Route::middleware('auth')->group(function () {
+    //Route::get('/', [AuthController::class, 'stamp']);
+//});
+
+Route::get('/', [UserController::class, 'attendance']);
