@@ -1,1 +1,1 @@
-# my-kintai
+# kintai-kensho
