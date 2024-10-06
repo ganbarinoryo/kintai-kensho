@@ -22,15 +22,14 @@
 
 <main>
 
-<div class="attendance__content">
+<class="attendance__content">
     <div class="attendance-form__heading">
         <h2>福場凛太郎さんお疲れ様です！</h2>
     </div>
 
 <!--データテーブル-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <div class="data-table">
-    <div class="data-table__inner">
-        <div class="data-table__users-table">
             <table>
                 <tr>
                     <th>id</th>
@@ -53,7 +52,5 @@
             </table>
             {{ $users->links() }}
         </div>
-    </div>
-</div>
 </body>
 </html>
