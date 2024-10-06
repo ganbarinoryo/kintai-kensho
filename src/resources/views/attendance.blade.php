@@ -22,8 +22,8 @@
 
 <main>
 
-<class="attendance__content">
-    <div class="attendance-form__heading">
+<div class="attendance__content">
+    <div class="attendance-content__heading">
         <h2>福場凛太郎さんお疲れ様です！</h2>
     </div>
 
@@ -50,7 +50,7 @@
                 </tr>
 @endforeach
             </table>
-            {{ $users->links() }}
+            <div class="pagination">{{ $users->links() }}</div>
         </div>
 </body>
 </html>
