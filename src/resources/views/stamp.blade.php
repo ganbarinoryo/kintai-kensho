@@ -16,10 +16,13 @@
           <ul class="flex__header-nav">
             @if (Auth::check())
             <li class="header-nav__item">
-                <a href="">ホーム</a>
+                <a href="/">ホーム</a>
             </li>
             <li class="header-nav__item">
-                <a href="">日付一覧</a>
+                <form action="/attendance" method="get">
+                    @csrf
+                    <button class="header-nav__button">日付一覧</button>
+                </form>
             </li>
             <li class="header-nav__item">
                 <form action="/logout" method="post">

@@ -19,18 +19,8 @@ use App\Http\Controllers\UserController;
 |
 */
 
-//Route::get('/', function () {return view('welcome');});
+Route::get('/attendance', [UserController::class, 'attendance']);
 
-//Route::get('/', [RegisterController::class, 'register']);
-
-//Route::get('/', [LoginController::class, 'login']);
-
-//Route::get('/', [StampController::class, 'stamp']);
-
-Route::get('/', [AttendanceController::class, 'attendance']);
-
-//Route::middleware('auth')->group(function () {
-    //Route::get('/', [AuthController::class, 'stamp']);
-//});
-
-Route::get('/', [UserController::class, 'attendance']);
+Route::middleware('auth')->group(function () {
+    Route::get('/', [AuthController::class, 'stamp']);
+});
