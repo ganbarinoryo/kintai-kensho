@@ -1,3 +1,8 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
 main {
     background-color: #ebebeb;
 
@@ -55,10 +60,14 @@ main {
 
 .footer {
     position: fixed;
+    margin-top: 15px;
     left: 0;
     bottom: 0;
     width: 100%;
     background: #ffffff;
-    height: 60px;
     text-align: center;
+}
+
+.footer__inner p {
+    padding-top: 10px;
 }
