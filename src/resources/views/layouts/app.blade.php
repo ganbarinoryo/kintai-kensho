@@ -48,7 +48,7 @@
 
   <footer class="footer">
     <div class="footer__inner">
-        <p>Atte, inc.</p>
+        <h5>Atte, inc.</h5>
     </div>
 </footer>
 
