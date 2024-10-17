@@ -1,10 +1,11 @@
 .stamp__content {
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 40px 0;
     max-width: 1500px;
 }
 
 .stamp-form__heading {
+    margin-top: -30px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -13,24 +14,25 @@
     color: #000000;
 }
 
-.form {
-    margin: 0 auto;
-    width: 30%;
-    text-align: center;
-
-}
-
 .flex__form__group {
     display: flex;
     justify-content: center;
 }
 
-.form__clock-button {
-    padding: 20px 20px 0 20px;
+.form__clock-in-button {
+    padding: 10px 0 10px 0;
 }
 
-.form__break-button {
-    padding: 40px 20px 30px 20px;
+.form__clock-out-button {
+    padding: 10px 0 10px 40px;
+}
+
+.form__break-in-button {
+    padding: 40px 0 20px 0;
+}
+
+.form__break-out-button {
+    padding: 40px 0 20px 40px;
 }
 
 .form__button-submit {

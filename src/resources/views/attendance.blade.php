@@ -35,6 +35,6 @@
                 </tr>
 @endforeach
             </table>
-            <div class="pagination">{{ $users->links() }}</div>
+            <div class="flex__pagination">{{ $users->links() }}</div>
         </div>
 @endsection
